@@ -33,6 +33,11 @@ my $builder = Module::Build->new(
     },
     add_to_cleanup     => ['App-lookup-*'],
     create_makefile_pl => 'traditional',
+    meta_merge => {
+        resources => {
+            repository => 'https://github.com/Syaltut/perl-App-lookup.git',
+        }
+    },
 );
 
 $builder->create_build_script();

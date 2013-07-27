@@ -8,7 +8,7 @@ USAGE
       lookup [--help] [--man] [--abbrevs] [--config-file FILE] [--sites]
              [--web-browser COMMAND] [--abbrevs] SITE QUERY
 
-EXAMPLE
+EXAMPLES
       # search google for the phrase 'perl is pretty awesome'
       lookup google 'perl is pretty awesome'
 
@@ -331,4 +331,10 @@ CAVEATS, BUGS, AND TODOS
 
 AUTHOR
     Ahmad Syaltut <Isyaltut@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Ahmad Syaltut.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 

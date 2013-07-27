@@ -18,7 +18,7 @@ sub parse_command_line {
     if ($opts{help}) {
         print_usage(
             -verbose  => 99,
-            -sections => [qw(USAGE EXAMPLE OPTIONS)],
+            -sections => [qw(USAGE EXAMPLES OPTIONS)],
             -exitval  => 0,
         );
     }
@@ -223,3 +223,10 @@ See B<lookup(1)> documentation.
 =head1 AUTHOR
 
 Ahmad Syaltut <Isyaltut@gmail.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Ahmad Syaltut.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
