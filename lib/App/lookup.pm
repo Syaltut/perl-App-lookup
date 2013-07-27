@@ -1,5 +1,7 @@
 package App::lookup;
 
+# ABSTRACT: search the internet from your terminal
+
 use strict;
 use warnings;
 
@@ -203,14 +205,6 @@ __END__
 
 =pod
 
-=head1 NAME
-
-App::lookup - search the internet from your terminal
-
-=head1 VERSION
-
-App::lookup version 0.01
-
 =head1 SYNOPSIS
 
   use App::lookup;
@@ -223,10 +217,3 @@ See B<lookup(1)> documentation.
 =head1 AUTHOR
 
 Ahmad Syaltut <Isyaltut@gmail.com>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2013 by Ahmad Syaltut.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
