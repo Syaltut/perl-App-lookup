@@ -1,4 +1,4 @@
-;; lookup.el --- run the perl lookup script https://metacpan.org/release/SYALTUT/App-lookup-0.01
+;; lookup.el --- run the perl lookup script https://metacpan.org/release/App-lookup
 
 ;; Copyright (C) 2013 Ahmad Syaltut
 
