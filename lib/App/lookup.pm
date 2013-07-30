@@ -10,7 +10,7 @@ use Getopt::Long qw(:config bundling no_ignore_case);
 use Text::Abbrev 'abbrev';
 use Text::Wrap 'wrap';
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub parse_command_line {
     GetOptions(\my %opts, 'help|h|?', 'man|m', 'version|v',
