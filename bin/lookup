@@ -5,6 +5,8 @@ use warnings;
 
 use App::lookup;
 
+our $VERSION = '0.04';
+
 App::lookup->run
 
 __END__
@@ -23,7 +25,6 @@ Version 0.04.
 
   lookup [--help] [--man] [--abbrevs] [--config-file FILE] [--sites]
          [--web-browser COMMAND] [--abbrevs] SITE QUERY
-
 
 =head1 EXAMPLES
 
